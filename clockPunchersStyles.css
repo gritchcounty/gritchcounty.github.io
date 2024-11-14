@@ -1,0 +1,19 @@
+h1 {
+    @font-face {
+        font-family: "Rena-reg";
+        src: local("Helvetica"), local("Arial");
+    }
+    .rena {
+        font-family: "Rena-reg";
+    }
+    color: blue;
+    font-size: larger;
+    ;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
