@@ -17,3 +17,7 @@ h1 {
     margin-right: auto;
     width: 25%;
 }
+.resize {
+    width: auto;
+    height: fit-content;
+}
