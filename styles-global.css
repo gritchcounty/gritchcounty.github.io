@@ -14,10 +14,13 @@
     font-family: "rena-reg";
     src: url('/fonts/Rena-Regular.ttf') format('truetype');
 }
-body {
-    font-family: 'figtree-reg', sans-serif;
+#page-clock-punchers body {
+    font-family: 'rena-reg', sans-serif;
 }
-h1 {
+body {
+    font-family: 'rena-reg', sans-serif;
+}
+h3 {
     font-family: "figtree-blk", sans-serif;
     font-size: 14px;
 }
