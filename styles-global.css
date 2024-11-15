@@ -17,6 +17,10 @@
 body {
     font-family: 'figtree-reg', sans-serif;
 }
+h1 {
+    font-family: "figtree-blk", sans-serif;
+    font-size: 14px;
+}
 
 /* index.html-specific */
 img {
