@@ -19,11 +19,14 @@ img {
         text-decoration: none;
 
     }
-    
 }
+
 .baseText {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
+.background {
+    background-image: url(/images/backgrounds/gcwa_bw_white_3a.png);
+}
 
