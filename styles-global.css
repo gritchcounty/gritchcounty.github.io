@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "figtree-blk";
+    src: url('/fonts/Figtree-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: "figtree-ital";
+    src: url('/fonts/Figtree-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: "figtree-reg";
+    src: url('/fonts/Figtree-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "rena-reg";
+    src: url('/fonts/Rena-Regular.ttf') format('truetype');
+}
+body {
+    font-family: 'figtree-reg', sans-serif;
+}
+
+/* index.html-specific */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.resize {
+    width:25vh;
+    height: auto;
+}
+.links {
+    a:visited, a:link, a:active 
+    {
+        text-decoration: none;
+    }
+    color: black;
+    a:hover {
+        text-decoration: none;
+    }
+}
+.baseText {
+    color: black;
+}
+.background {
+    background-image: url(/images/backgrounds/gcwa_bw_white_3a.png);
+}
+
+/* posters.html-specific */
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-image: url("/images/backgrounds/gcwa_banner.png");
+}
+.thumb {
+    width: 80px;
+    height: auto;
+    border: 1px solid #000;
+}
+.caption {
+    font-size: small;
+    text-justify:auto;
+}
