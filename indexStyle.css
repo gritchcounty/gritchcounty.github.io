@@ -4,6 +4,10 @@ img {
 }
 
 .resize {
-    width: auto;
+    width:25vh;
     height: 100vh;
+}
+
+.links {
+    font-family: Arial, Helvetica, sans-serif;
 }
