@@ -16,36 +16,78 @@
 }
 html {
     overflow-x: hidden;
+    width: 100%;
     height: 100%;
 }
-#page-clock-punchers body {
-    font-family: 'rena-reg', sans-serif;
+/*.wrapper {
+    display: grid;
 }
+    */
 body {
-    min-height: 95vh;
+    min-height:max-content;
     margin: 0;
-    margin-top: 20px;
     display: grid;
     grid-template-rows: auto 1fr auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
 
+    font-family: 'figtree-reg', sans-serif;
+}
+body#page-index {
     background-image: url('/images/backgrounds/gcwa_bw.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
-    font-family: 'figtree-reg', sans-serif;
+}
+body#page-clock-punchers  {
+    font-family: 'rena-reg', sans-serif;
 }
 h3 {
     font-family: "figtree-blk", sans-serif;
     font-size: 20px;
 }
 .footer {
-    min-height: 50px;
     text-align: center;
     margin: 0 auto;
+}
+.links {
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color: #c6341a;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #129376;
+    }
+    p:hover {
+        text-decoration: none;
+        color: #f7a001;
+    }
+}
+.linksSiteMap {
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #61c581;
+    }
+}
+.linksFooter {
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #129376;
+    }
 }
 /* index.html-specific */
 img {
@@ -56,22 +98,7 @@ img {
     width:25vh;
     height: auto;
 }
-.links {
-    a:visited, a:link, a:active 
-    {
-        text-decoration: none;
-        color: black;
-    }
-    a:hover {
-        text-decoration: none;
-        color: #129376;
-    }
-    p:hover {
-        text-decoration: none;
-        color: #f7a001;
-    }
 
-}
 .baseText {
     color: black;
 }
