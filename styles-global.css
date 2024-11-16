@@ -14,7 +14,10 @@
     font-family: "rena-reg";
     src: url('/fonts/Rena-Regular.ttf') format('truetype');
 }
-
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
 #page-clock-punchers body {
     font-family: 'rena-reg', sans-serif;
 }
@@ -23,6 +26,8 @@ body {
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: 'figtree-reg', sans-serif;
 }
 h3 {
