@@ -19,8 +19,10 @@
     font-family: 'rena-reg', sans-serif;
 }
 body {
-    min-height: 100vh;
-    margin: 5;
+    min-height: 97vh;
+    margin-top: 20;
+    margin-left: 20;
+    margin-bottom: -40;
     display: grid;
     grid-template-rows: auto 1fr auto;
     font-family: 'figtree-reg', sans-serif;
@@ -51,7 +53,7 @@ img {
     }
     a:hover {
         text-decoration: none;
-        color: #f7a001;
+        color: #129376;
     }
     p:hover {
         text-decoration: none;
