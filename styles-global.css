@@ -75,10 +75,10 @@ h3 {
     a:visited, a:link, a:active
     {
         text-decoration: none;
-        color:#129376;
+        color:black;
    }
    a:hover {
-        color: black;
+        color:#129376;
    }
     margin-top: 0;
     padding-top: 0;
@@ -114,7 +114,7 @@ h3 {
     }
     a:hover {
         text-decoration: none;
-        color: #61c581;
+        color:#129376;
     }
 }
 .linksFooter {
