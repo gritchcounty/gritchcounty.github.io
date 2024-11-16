@@ -50,6 +50,7 @@ img {
     color: black;
     a:hover {
         text-decoration: none;
+        color: #f7a001;
     }
 }
 .baseText {
