@@ -14,17 +14,25 @@
     font-family: "rena-reg";
     src: url('/fonts/Rena-Regular.ttf') format('truetype');
 }
+
 #page-clock-punchers body {
     font-family: 'rena-reg', sans-serif;
 }
 body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     font-family: 'figtree-reg', sans-serif;
 }
 h3 {
     font-family: "figtree-blk", sans-serif;
     font-size: 20px;
 }
-
+.footer {
+    min-height: 50px;
+    text-align: center;
+}
 /* index.html-specific */
 img {
     max-width: 100%;
@@ -51,7 +59,7 @@ img {
     background-image: url('/images/backgrounds/gcwa_bw_white_3a.png');
 }
 
-/* posters.html-specific */
+/* posters.html-specific UNUSED
 .header {
     position: fixed;
     left: 0;
@@ -69,3 +77,4 @@ img {
     font-size: small;
     text-justify:auto;
 }
+*/
