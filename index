@@ -7,9 +7,11 @@
     </head>
     <body id="page-index">
         <div class="resize">
-            <a href="/index.html"><img src="/images/gcwa_comp.png" alt="Gritch County Water Authority compact logo"></a>
+            <a href="/index"><img src="/images/gcwa_comp.png" alt="Gritch County Water Authority compact logo"></a>
         </div>
         <div>
+            <h1 class="index-title">Gritch County Water Authority</h1>
+            <p class="index-sub"><a href="https://maps.app.goo.gl/tnfU8qC1XEFc9sSx5">3001 County Admin Rd.<br>Kent, mn 56514</a></p>
             <!--main body-->
         </div>
         <footer class="footer">
