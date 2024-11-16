@@ -19,10 +19,8 @@
     font-family: 'rena-reg', sans-serif;
 }
 body {
-    min-height: 97vh;
-    margin-top: 20;
-    margin-left: 20;
-    margin-bottom: -40;
+    min-height: 100vh;
+    margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
     font-family: 'figtree-reg', sans-serif;
