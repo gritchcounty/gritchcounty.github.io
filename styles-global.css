@@ -33,20 +33,40 @@ body {
     padding-right: 20px;
     padding-top: 20px;
 
-    font-family: 'figtree-reg', sans-serif;
+    font-family: 'figtree-reg';
 }
-body#page-index {
+body#page-index,#page-historical-materials {
     background-image: url('/images/backgrounds/gcwa_bw.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-body#page-clock-punchers  {
-    font-family: 'rena-reg', sans-serif;
-}
 h3 {
-    font-family: "figtree-blk", sans-serif;
+    font-family: "figtree-blk";
     font-size: 20px;
+}
+.index-title {
+    text-align: center;
+    font-family: "figtree-blk";
+    text-transform:uppercase;
+    margin-bottom: 0;
+}
+.index-sub {
+    
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color:#129376;
+   }
+   a:hover {
+        color: black;
+   }
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-family: "figtree-blk";
+    
+    text-transform:uppercase;
 }
 .footer {
     text-align: center;
