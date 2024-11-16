@@ -32,6 +32,7 @@ h3 {
 .footer {
     min-height: 50px;
     text-align: center;
+    margin: 0 auto;
 }
 /* index.html-specific */
 img {
@@ -46,12 +47,17 @@ img {
     a:visited, a:link, a:active 
     {
         text-decoration: none;
+        color: black;
     }
-    color: black;
     a:hover {
         text-decoration: none;
         color: #f7a001;
     }
+    p:hover {
+        text-decoration: none;
+        color: #f7a001;
+    }
+
 }
 .baseText {
     color: black;
