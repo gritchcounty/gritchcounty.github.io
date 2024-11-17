@@ -45,12 +45,14 @@ body {
     padding-right: 20px;
     padding-top: 20px;
 }
+/* No bg now
 body#page-index,#page-historical-materials,#page-about {
     background-image: url('/images/backgrounds/gcwa_bw.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+    */
 /* Text formatting */
 h3 {
     font-family: "figtree-blk";
@@ -106,17 +108,25 @@ h3 {
         color:#129376;
     }
 }
-/* Footer hyperlinks */
-.linksFooter {
-    a:visited, a:link, a:active
-    {
-        text-decoration: none;
-        color: black;
-    }
-    a:hover {
-        text-decoration: none;
-        color: #129376;
-    }
+/* Sponsor Logos */
+.sponsor-flex {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    gap: 15px;
+}
+.sponsor-space {
+    justify-content: space-evenly;
+}
+.sponsor-nav {
+    text-align: center;
+    line-height: 1em;
+    object-fit: contain;
+    text-decoration: none;
 }
 .img-centering {
     content-visibility: hidden;
