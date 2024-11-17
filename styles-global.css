@@ -30,16 +30,20 @@ body {
     /* Basic formatting */
     font-family: 'figtree-reg';
 }
+.textbox {
+    display: grid;
+    grid-template-columns: 705px;
+}
 .head-foot {
-     /* Header/footer box */
-     height: 100vh;
-     box-sizing: border-box;
-     margin: 0;
-     display: grid;
-     grid-template-rows: auto 1fr auto;
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-top: 20px;
+    /* Header/footer box */
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 body#page-index,#page-historical-materials,#page-about {
     background-image: url('/images/backgrounds/gcwa_bw.png');
@@ -83,10 +87,6 @@ h3 {
     {
         text-decoration: none;
         color: #c6341a;
-    }
-    a:hover {
-        text-decoration: none;
-        color: #129376;
     }
     p:hover {
         text-decoration: none;
@@ -158,6 +158,7 @@ h3 {
         margin:auto;
         margin-left: auto;
         margin-right: auto;
+        
         text-align: center;
     }
     .space-evenly {
