@@ -55,6 +55,13 @@ h3 {
     font-size: 20px;
     margin-bottom: 0;
 }
+.centertext {
+    text-align: center;
+}
+h6 {
+    font-family: "figtree-ital";
+    font-weight: normal;
+}
 .index-title {
     text-align: center;
     font-family: "figtree-blk";
