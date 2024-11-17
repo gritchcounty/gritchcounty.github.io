@@ -32,7 +32,13 @@ body {
 }
 .textbox {
     display: grid;
-    grid-template-columns: 705px;
+    grid-template-columns: 600px;
+}
+/* Adjust textbox size with decreasing screen width */
+@media (width < 1800px) {
+    .textbox {
+        grid-template-columns: (3, 1fr);
+    }
 }
 .head-foot {
     /* Header/footer box */
@@ -55,6 +61,7 @@ body#page-index,#page-historical-materials,#page-about {
 h3 {
     font-family: "figtree-blk";
     font-size: 20px;
+    margin-bottom: 0;
 }
 .index-title {
     text-align: center;
@@ -120,6 +127,7 @@ h3 {
 .img-centering {
     content-visibility: hidden;
 }
+
 /*  Centers header logo/removes index-title when screen has 2:3 aspect ratio or smaller */
 @media (max-aspect-ratio: 2/3) {
     .header {
@@ -152,7 +160,7 @@ h3 {
 /* Centered/distributed sitemap links for >2:3 aspect ratios */
 @media (min-aspect-ratio: 2.00001/3){
     .navigation-container {
-        width: 60%;
+        width: 30%;
         display: flex;
         flex-flow: row nowrap;
         margin:auto;
