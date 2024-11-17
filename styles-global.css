@@ -34,12 +34,6 @@ body {
     display: grid;
     grid-template-columns: 600px;
 }
-/* Adjust textbox size with decreasing screen width */
-@media (width < 1800px) {
-    .textbox {
-        grid-template-columns: (3, 1fr);
-    }
-}
 .head-foot {
     /* Header/footer box */
     height: 100vh;
