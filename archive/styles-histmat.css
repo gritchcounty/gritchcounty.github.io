@@ -2,6 +2,7 @@
     color: #129376;
 }
 .links-docs {
+    text-indent: 50;
     a:visited, a:link, a:active
     {
         text-decoration: none;
@@ -12,7 +13,8 @@
         color: #f7a001;
     }
 }
-.links-docs #coa{
+.links-coa{
+    text-indent: 50;
     a:visited, a:link, a:active
     {
         text-decoration: none;
@@ -22,6 +24,9 @@
         text-decoration: none;
         color: #f7a001;
     }
+}
+h4 {
+    margin-bottom: 0;
 }
 /* Need to figure out how to make this sit to the right of the images in the poster htmls
 
