@@ -1,0 +1,34 @@
+.currentSiteMap {
+    color: #129376;
+}
+.links-docs {
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color:#129376;
+    }
+    p:hover {
+        text-decoration: none;
+        color: #f7a001;
+    }
+}
+.links-docs #coa{
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color: #c6341a;
+    }
+    p:hover {
+        text-decoration: none;
+        color: #f7a001;
+    }
+}
+/* Need to figure out how to make this sit to the right of the images in the poster htmls
+
+.imagedesc {
+    display: grid;
+    grid-template-columns:auto;
+} 
+
+
+*/
