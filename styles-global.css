@@ -101,9 +101,35 @@ h6 {
     }
 }
 /* Sponsor Logos only visible on desktop*/
-@media (device-aspect-ratio > 1/1){
+@media (min-device-width: 650px) 
+        and (device-aspect-ratio > 1/1){
     .sponsor-flex {
         width: 50%;
+        display: flex;
+        flex-flow: row nowrap;
+        margin: auto;
+        margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        gap: 15px;
+    }
+    .sponsor-space {
+        justify-content: space-evenly;
+    }
+    .sponsor-nav {
+        text-align: center;
+        line-height: 1em;
+        object-fit: contain;
+        text-decoration: none;
+        filter: brightness(0);
+    }
+}
+/*test to see if landscape/mobile works properly*/
+@media (max-device-width: 640px) 
+        and (orientation: landscape){
+    .sponsor-flex {
+        width: 100%;
         display: flex;
         flex-flow: row nowrap;
         margin: auto;
