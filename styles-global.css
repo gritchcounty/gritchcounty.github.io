@@ -30,7 +30,10 @@ body {
     /* Basic formatting */
     font-family: 'figtree-reg';
     background-color: #e7e7e7;
-}
+}/*
+#page-index {
+    background-image: url(/images/backgrounds/dave-hoefler-Iyp4dqJt6k8-unsplash.png);
+}*/
 .header {
     width:25vh;
     height: auto;

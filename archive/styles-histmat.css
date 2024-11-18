@@ -21,9 +21,13 @@
         color: #c6341a;
     }
     a:hover {
+        text-indent: 100px;
         text-decoration: none;
         color: #f7a001;
     }
+}
+span {
+    margin-left: 100px;
 }
 @media (max-aspect-ratio: 1/1){
     .links-docs {
@@ -33,6 +37,9 @@
     .links-coa {
         text-indent: 0px;
         text-align: center;
+    }
+    span {
+        margin-left: 0;
     }
 }
 h4 {
