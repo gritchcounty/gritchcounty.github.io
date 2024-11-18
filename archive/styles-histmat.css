@@ -8,7 +8,7 @@
         text-decoration: none;
         color:#129376;
     }
-    p:hover {
+    a:hover {
         text-decoration: none;
         color: #f7a001;
     }
@@ -20,7 +20,7 @@
         text-decoration: none;
         color: #c6341a;
     }
-    p:hover {
+    a:hover {
         text-decoration: none;
         color: #f7a001;
     }

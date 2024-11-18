@@ -29,6 +29,11 @@ html {
 body {
     /* Basic formatting */
     font-family: 'figtree-reg';
+    background-color: #e7e7e7;
+}
+.header {
+    width:25vh;
+    height: auto;
 }
 .head-foot {
     /* Header/footer box */
@@ -41,10 +46,6 @@ body {
     padding-right: 20px;
     padding-top: 20px;
 }
-body {
-    background-color: #e7e7e7;
-}
-
 /* Text formatting */
 h3 {
     font-family: "figtree-blk";
@@ -153,7 +154,7 @@ h6 {
 .sponsor-nav:hover {
     filter: brightness(100%);
 }
- .img-centering {
+.img-centering {
     content-visibility: hidden;
 }
 /*  Centers header logo/removes index-title when screen has 2:3 aspect ratio or smaller */
@@ -180,10 +181,6 @@ h6 {
     .img-23 {
         content-visibility: hidden;
     }   
-}
-.header {
-    width:25vh;
-    height: auto;
 }
 /* Centered/distributed sitemap links for >2:3 aspect ratios */
 @media (min-aspect-ratio: 2.00001/3){
