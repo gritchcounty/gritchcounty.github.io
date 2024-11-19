@@ -1,0 +1,10 @@
+.fillable {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
