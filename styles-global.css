@@ -106,6 +106,10 @@ h6 {
         color:#129376;
     }
 }
+.linksIcons {
+    text-align: right; 
+    margin-top: 15px;
+}
 .currentSiteMap {
     color: #129376;
 }
@@ -193,7 +197,10 @@ h6 {
     } 
     .img-23 {
         content-visibility: hidden;
-    }   
+    }
+    .linksIcons {
+        text-align: center;
+    }
 }
 /* Centered/distributed sitemap links for >2:3 aspect ratios */
 @media (min-aspect-ratio: 2.00001/3){
