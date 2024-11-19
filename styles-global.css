@@ -35,12 +35,18 @@ body {
     background-image: url(/images/backgrounds/dave-hoefler-Iyp4dqJt6k8-unsplash.png);
 }*/
 .header {
-    width:25vh;
     height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .head-foot {
     /* Header/footer box */
-    height: 100vh;
+    height: 99vh;
     box-sizing: border-box;
     margin: 0;
     display: grid;
@@ -61,6 +67,7 @@ h3 {
 h6 {
     font-family: "figtree-ital";
     font-weight: normal;
+    margin-top: 0;
 }
 .index-title {
     text-align: center;
@@ -87,8 +94,8 @@ h6 {
     text-align: center;
     margin: 0;
 }
-/* Footer sitemap hyperlinks */
-.linksSiteMap {
+/* hyperlinks */
+.links {
     a:visited, a:link, a:active
     {
         text-decoration: none;
@@ -98,6 +105,9 @@ h6 {
         text-decoration: none;
         color:#129376;
     }
+}
+.currentSiteMap {
+    color: #129376;
 }
 @media (max-aspect-ratio: 1.3/1){
     .sponsor-flex {
