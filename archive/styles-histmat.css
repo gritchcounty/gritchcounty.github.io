@@ -26,9 +26,6 @@
         color: #f7a001;
     }
 }
-span {
-    margin-left: 100px;
-}
 @media (max-aspect-ratio: 1/1){
     .links-docs {
         text-indent: 0px;
