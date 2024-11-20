@@ -20,32 +20,7 @@
                         <a href="https://www.instagram.com/gritchcounty/"> <span class="fa-brands fa-instagram fa-xl">&ensp;</span></a>
                         <a href="https://www.tiktok.com/@gritchcounty/"><span class="fa-brands fa-tiktok fa-xl">&ensp;</span></a>
                         <a href="https://www.twitter.com/gritchcounty/"><span class="fa-brands fa-square-x-twitter fa-xl">&ensp;</span></a>
-                        <span>
-                            <script type="text/javascript" language="javascript">
-                                <!--
-                                // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-                                // Random encryption key feature coded by Andrew Moulden
-                                // This code is freeware provided these four comment lines remain intact
-                                // A wizard to generate this code is at https://web.archive.org/web/20180103001806/http://www.jottings.com/obfuscator/
-                                { coded = "bd6mudr6zRuZ6Y@suZ6qzqRrU6Y.qRe"
-                                key = "UlZmytDAfIoLPGKx02MNq1jCQhbraJsnvieY6p48SRO9HEF75BVcW3kTzwudXg"
-                                shift=coded.length
-                                link=""
-                                for (i=0; i<coded.length; i++) {
-                                    if (key.indexOf(coded.charAt(i))==-1) {
-                                    ltr = coded.charAt(i)
-                                    link += (ltr)
-                                    }
-                                    else {     
-                                    ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-                                    link += (key.charAt(ltr))
-                                    }
-                                }
-                                document.write("<a href='mailto:"+link+"'><span class='fa-regular fa-envelope fa-xl'></span></a>")
-                                }
-                                //-->
-                            </script><noscript>Sorry, you need Javascript on to email me.</noscript>
-                        </span>
+                        <span><script src="globalscript.js"></script><noscript>Sorry, you need Javascript on to email me.</noscript></span>
                     </p>
                 </div>
             </div>
@@ -54,6 +29,15 @@
             <h1 class="index-title">Gritch County Water Authority</h1>
             <p class="index-sub"><a href="https://maps.app.goo.gl/tnfU8qC45eyAc9sSx5">3001 County Admin Rd.<br>Kent, CE 56514</a></p>
             <!--main body-->
+            <div style="background-color: #f7a001;">
+                <p class="centertext" style="padding-top: 10px;padding-bottom: 10px;">
+                    Note: Water payments are due on the 12<sup style="font-size: 8pt;">th</sup> of each 
+                    month. Next payment date: <script src="indexscript.js"></script>
+                    
+                </p>
+            </div>
+            <h3 style="margin-bottom: 0;">NEWS</h3>
+            <p style="margin-top: 0;"></p>
         </main>
         <footer class="footer"><!--Three-->
             <nav class=" links navigation-container space-evenly">
@@ -77,3 +61,9 @@
         </footer>
     </body>
 </html>
+<!--Colors
+Red [c6341a]
+Yellow [f7a001]
+LGreen [61c682]
+DGreen [129376]
+-->
