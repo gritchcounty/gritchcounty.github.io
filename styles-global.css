@@ -123,6 +123,7 @@ h6 {
         and (device-aspect-ratio > 1/1){
     .sponsor-flex {
         width: 50%;
+        height: auto;
         display: flex;
         flex-flow: row nowrap;
         margin: auto;
@@ -140,6 +141,7 @@ h6 {
         line-height: 1em;
         object-fit: contain;
         text-decoration: none;
+        
         filter: brightness(0);
     }
 }
