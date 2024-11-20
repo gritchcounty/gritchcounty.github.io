@@ -5,7 +5,7 @@ if (n.getDate > 12) {
     m++;
 }
 
-if (n.getDate() = 12) {
+if (n.getDate() == 12) {
     document.write(m + "/12/" + y)
     document.write("<span style='font-family = figtree-ital'>TODAY</span>");
 } else {
