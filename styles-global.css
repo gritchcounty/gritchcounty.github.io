@@ -219,7 +219,7 @@ h6 {
 /* Centered/distributed sitemap links for >2:3 aspect ratios */
 @media (min-aspect-ratio: 2.00001/3){
     .navigation-container {
-        width: 30%;
+        width: 40%;
         display: flex;
         flex-flow: row nowrap;
         margin:auto;
