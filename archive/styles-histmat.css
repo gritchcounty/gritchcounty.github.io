@@ -24,6 +24,9 @@
         color: #f7a001;
     }
 }
+.linksMoving {
+    margin-left: 100px;
+}
 @media (max-aspect-ratio: 1/1){
     .links-docs {
         text-indent: 0px;
@@ -34,6 +37,10 @@
         text-align: center;
     }
     span {
+        margin-left: 0;
+    }
+    .linksMoving {
+        text-align: center;
         margin-left: 0;
     }
 }
