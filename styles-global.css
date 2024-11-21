@@ -106,9 +106,21 @@ h6 {
         color:#129376;
     }
 }
+.greenLinks {
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color: #129376;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #61c682;
+    }
+}
 .linksIcons {
     text-align: right; 
     margin-top: 15px;
+    line-height: 30px;
 }
 .currentSiteMap {
     color: #129376;
