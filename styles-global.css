@@ -294,8 +294,8 @@ h6 {
 .img-centering {
     content-visibility: hidden;
 }
-/*  Centers header logo/removes index-title when screen has 2:3 aspect ratio or smaller */
-@media (max-aspect-ratio: 2/3) {
+/*  Centers header logo/removes index-title when screen has 5/6 aspect ratio or smaller */
+@media (max-aspect-ratio: 5/6) {
     .header {
         display: block;
         margin-left: auto;
@@ -327,7 +327,7 @@ h6 {
     text-align: center;
 }
 /* Centered/distributed sitemap links for >2:3 aspect ratios */
-@media (min-aspect-ratio: 2.00001/3){
+@media (min-aspect-ratio: 5.00001/6){
     .navigation-container {
         width: 100%;
         display: flex;
