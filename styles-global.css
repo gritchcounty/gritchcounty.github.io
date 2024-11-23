@@ -27,10 +27,7 @@ body {
     font-family: 'figtree-reg';
     background-color: #e7e7e7;
     
-}/*
-#page-index {
-    background-image: url(/images/backgrounds/dave-hoefler-Iyp4dqJt6k8-unsplash.png);
-}*/
+}
 .header {
     height: auto;
     width: 100%;
@@ -43,21 +40,22 @@ body {
 }
 /*Hamburger Menu*/
 .burger {
-    content-visibility: hidden;
+    display: none;
 }
-.icon {
-    color: black;
-    display: block;
-    position: relative;
+#check {
+    display: none;
+}
+.checkbtn {
+    display: none;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
-.burger {
-    overflow: hidden;
-    position: relative;
-}
-.burger #burgerlinks {
+.burgerlinks {
     display: none;
+}
+#check:checked ~ .burgerlinks{
+    display: block;
 }
 .banner {
     background-color: #f7a001; 
@@ -68,7 +66,6 @@ body {
     margin-bottom: 0;
 }
 button {
-    width: 375px;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -277,8 +274,8 @@ h6 {
     .fullwidthbg #flexnav {
         content-visibility: hidden;
     }
-    .burger {
-        content-visibility: visible;
+    .checkbtn {
+        display: block;
     }
 }
 .nav {
