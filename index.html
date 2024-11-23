@@ -36,7 +36,7 @@
                 month. Next payment date: <span style="font-weight: bold;"><script src="indexscript.js"></script></span>
             </p>
             <div class="fullwidthbg">
-                <nav class="yellowLinks navigation-container space-evenly">
+                <nav id="flexnav" class="yellowLinks navigation-container space-evenly">
                     <a href="/"><h5 class="nav currentSiteMap">HOME</h5></a>
                     <a href="/about"><h5 class="nav">ABOUT</h5></a>
                     <a href="/materials"><h5 class="nav">MATERIALS</h5></a>
@@ -44,7 +44,31 @@
                     <a href="/music"><h5 class="nav">MUSIC</h5></a>
                     <a href="/contact"><h5 class="nav">CONTACT</h5></a>
                 </nav>
+                <div class="burger">
+                    <script lang="Javascript">
+                        function myFunction() {
+                            var x = document.getElementById("burgerLinks");
+                            if (x.style.display === "block") {
+                                x.style.display = "none";
+                            } else {
+                                x.style.display = "block";
+                            }
+                        }
+                    </script>
+                    <a href="javascript: void(0);" class="icon" onclick="myFunction()">
+                        <span class="fa-solid fa-bars fa-xl"></span>
+                    </a>
+                    <div id="burgerlinks" class="yellowLinks">
+                        <a href="/"><h5 class="nav currentSiteMap">HOME</h5></a>
+                        <a href="/about"><h5 class="nav">ABOUT</h5></a>
+                        <a href="/materials"><h5 class="nav">MATERIALS</h5></a>
+                        <a href="/archive"><h5 class="nav">ARCHIVE</h5></a>
+                        <a href="/music"><h5 class="nav">MUSIC</h5></a>
+                        <a href="/contact"><h5 class="nav">CONTACT</h5></a>
+                    </div>
+                </div>
             </div>
+            
         </header>
         <main><!--Two-->
             <!--main body-->
@@ -52,7 +76,7 @@
                 <div id="quicklinks"><!--PANEL 1-->
                     <h3 class="centertext" style="padding-top: 20px; padding-bottom: 20px;">QUICK LINKS</h3>
                     <div style="text-align: center;">
-                        <button class="indexbutton1 redLinks" style="margin-bottom: 0;">
+                        <button class="yellowLinks" style="margin-bottom: 0;">
                         <a href="https://gritchcounty.bigcartel.com" target="_blank" style="font-family: figtree-blk;">
                             Pay your bills online with our intuitive portal!
                         </a>
@@ -60,7 +84,7 @@
                         <h6 id="b1" class="centertext" style="margin-top: 0; font-size: small; margin-bottom: 15px;">
                             Links to https://gritchcounty.bigcartel.com/ for GCWA merch.
                         </h6>
-                        <button id="b2" class="indexbutton2 yellowLinks" style="margin-bottom: 0;">
+                        <button id="b2" class="yellowLinks" style="margin-bottom: 0;">
                             <a href="https://sudopadre.bandcamp.com/album/keen" target="_blank" style="font-family: figtree-blk;">
                                 Sudo Padre has released "keen" on Bandcamp!
                             </a>
@@ -69,25 +93,6 @@
                             "keen" was released as a collaboration between<br> 
                             Gritch County Water Authority and <a href="https://www.epoxyrecordsclub.com/">Epoxy Records Club.</a>
                         </h6>
-                        <!--<button id="b2" class="indexbutton3 lgreenLinks" style="margin-bottom: 0;">
-                            <a href="https://sudopadre.bandcamp.com/album/keen" target="_blank" style="font-family: figtree-blk;">
-                                Sudo Padre has released "keen" on Bandcamp!
-                            </a>
-                        </button>
-                        <h6 class="centertext links" style="margin-top: 0; font-size: small; margin-bottom: 15px;">
-                            "keen" was released as a collaboration between<br> 
-                            Gritch County Water Authority and <a href="https://www.epoxyrecordsclub.com/">Epoxy Records Club.</a>
-                        </h6>
-                        <button id="b2" class="indexbutton4 greenLinks0" style="margin-bottom: 0;">
-                            <a href="https://sudopadre.bandcamp.com/album/keen" target="_blank" style="font-family: figtree-blk;">
-                                Sudo Padre has released "keen" on Bandcamp!
-                            </a>
-                        </button>
-                        <h6 class="centertext links" style="margin-top: 0; font-size: small; margin-bottom: 15px;">
-                            "keen" was released as a collaboration between<br> 
-                            Gritch County Water Authority and <a href="https://www.epoxyrecordsclub.com/">Epoxy Records Club.</a>
-                        </h6>-->
-                        
                         <!--<button class="indexbutton redLinks" style="margin-bottom: 0">
                             <a href="/spills" style="font-family: figtree-blk;">
                                 Spills Database
