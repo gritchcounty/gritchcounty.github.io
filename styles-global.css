@@ -327,6 +327,11 @@ h6 {
     .ql {
         padding-top: 5px;
     }
+    .whiteLinks {
+        a:hover {
+            color: #129376;
+        }
+    }
 }
 .nav {
     text-align: center;
