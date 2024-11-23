@@ -352,6 +352,6 @@ h6 {
         box-sizing: border-box;
         margin: 0;
         display: grid;
-        grid-template-columns: 45vw 5vw 45vw;
+        grid-template-columns: 45vw 8vw 45vw;
     }
 }
