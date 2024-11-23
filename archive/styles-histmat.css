@@ -11,19 +11,6 @@
         color: #f7a001;
     }
 }
-.links-coa{
-    text-indent: 50px;
-    a:visited, a:link, a:active
-    {
-        text-decoration: none;
-        color: #c6341a;
-    }
-    a:hover {
-        text-indent: 100px;
-        text-decoration: none;
-        color: #f7a001;
-    }
-}
 .linksMoving {
     margin-left: 100px;
 }

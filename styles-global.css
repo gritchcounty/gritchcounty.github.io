@@ -26,17 +26,34 @@ body {
     /* Basic formatting */
     font-family: 'figtree-reg';
     background-color: #e7e7e7;
-    
+}
+.greyspace {
+    height: 183px;
+    background-image: url(/images/backgrounds/grad_noise2.png);
+    background-size: 100vw;
+    /*background-color: #c0c0c0;*/
+}
+.main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logos {
+    margin-left: 20px;
+    margin-top: 43px;
 }
 .header {
     height: auto;
     width: 100%;
     box-sizing: border-box;
     margin: 0;
+    /*background-color: #c0c0c0;*/
     display: grid;
     grid-template-columns: auto 1fr auto;
-    padding-left: 20px;
-    padding-right: 20px;
+
+}
+.linksIcons {
+    padding-top: 30px;
+    padding-right: 30px;
 }
 /*Hamburger Menu*/
 .burger {
@@ -81,9 +98,6 @@ button {
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
 }
 /* Text formatting */
 h3 {
@@ -268,12 +282,21 @@ h6 {
     }
     .linksIcons {
         text-align: center;
+        padding-top: 0;
+        padding-right: 0;
     }
     .fullwidthbg #flexnav {
         display: none;
     }
     .checkbtn {
         display: block;
+        margin-top: 0px;
+    }
+    .greyspace {
+        background-image: none;
+    }
+    .logos {
+        margin-left: 0;
     }
 }
 .nav {
