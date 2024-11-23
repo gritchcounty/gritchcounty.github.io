@@ -342,12 +342,15 @@ h6 {
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-        margin-left: 0;
+        margin-left: auto;
         margin-right: auto;
-        text-align: right;
+        text-align: center;
     }
     .space-evenly {
         justify-content: space-evenly;
+    }
+    .footer {
+        text-align: center;
     }
     .nav {
         text-align: center;
