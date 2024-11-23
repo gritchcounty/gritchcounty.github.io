@@ -44,10 +44,11 @@
                     <a href="/music"><h5 class="nav">MUSIC</h5></a>
                     <a href="/contact"><h5 class="nav">CONTACT</h5></a>
                 </nav>
-                <div class="burger">
-                    <a href="javascript: void(0);" class="icon" onclick="myFunction()">
+                <div class="burger"></div>
+                    <input title="check" type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
                         <span class="fa-solid fa-bars fa-xl"></span>
-                    </a>
+                    </label>
                     <div class="burgerlinks yellowLinks">
                         <a href="/"><h5 class="nav currentSiteMap">HOME</h5></a>
                         <a href="/about"><h5 class="nav">ABOUT</h5></a>
@@ -57,16 +58,6 @@
                         <a href="/contact"><h5 class="nav">CONTACT</h5></a>
                     </div>
                 </div>
-                <script>
-                    function myFunction() {
-                        var x = document.getElementById("burgerLinks");
-                        if (x.style.display === "block") {
-                            x.style.display = "none";
-                        } else {
-                            x.style.display = "block";
-                        }
-                    }
-                </script>
             </div>
             
         </header>
@@ -103,7 +94,7 @@
                     </div><!--Think about moving corporate sponsors (except for VO|SF) here.-->
                 </div>
                 <div></div> <!--DIVIDER-->
-                <div id="news" class="greenLinks"><!--NEWS-->
+                <div id="news" class="greenLinks" style=" padding-right: 20px;"><!--NEWS-->
                     <h3 class="centertext" style="padding-top: 20px;">NEWS</h3>
                     <p class="indexdates">2024-11-21</p> 
                     <p style="margin-top: 0">GCWA is pleased to announce its collaboration with VitalOffice | Sharefold for its five-year TSO contract and 
