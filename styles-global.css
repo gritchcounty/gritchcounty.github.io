@@ -125,6 +125,10 @@ h6 {
     font-weight: normal;
     margin-top: 0;
 }
+.ql {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
 .centertext {
     text-align: center;
     margin-top: 0;
@@ -311,11 +315,17 @@ h6 {
         display: block;
         margin-top: 0px;
     }
+    .checkbtn #page-index {
+        margin-top: 10px;
+    }
     .greyspace {
         background-image: none;
     }
     .logos {
         margin-left: 0;
+    }
+    .ql {
+        padding-top: 5px;
     }
 }
 .nav {
