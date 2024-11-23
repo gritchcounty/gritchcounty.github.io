@@ -28,7 +28,7 @@ body {
     background-color: #e7e7e7;
 }
 .greyspace {
-    height: 183px;
+    height: 193px;
     background-image: url(/images/backgrounds/grad_noise2.png);
     background-size: 100vw;
     /*background-color: #c0c0c0;*/
@@ -49,7 +49,6 @@ body {
     /*background-color: #c0c0c0;*/
     display: grid;
     grid-template-columns: auto 1fr auto;
-
 }
 .linksIcons {
     padding-top: 30px;
@@ -81,6 +80,9 @@ body {
     font-family: figtree-ital; 
     margin-top: 0;
     margin-bottom: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 button {
     padding: 5px;
@@ -172,6 +174,17 @@ h6 {
     a:hover {
         text-decoration: none;
         color:#f7a001;
+    }
+}
+.whiteLinks {
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color:#e7e7e7;
     }
 }
 .greenLinks {
@@ -327,7 +340,7 @@ h6 {
         margin-top: 0;
         margin-bottom: 0;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 10px;        
     }
     .index2col {
         box-sizing: border-box;
