@@ -52,6 +52,10 @@ body {
     text-align: center;
     padding-top: 10px;
 }
+.burger {
+    overflow: hidden;
+    position: relative;
+}
 .burger #burgerlinks {
     display: none;
 }
