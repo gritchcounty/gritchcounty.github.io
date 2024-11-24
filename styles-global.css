@@ -17,6 +17,10 @@
     font-family: "rena-reg";
     src: url('/fonts/Rena-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: "superior-reg";
+    src: url('/fonts/LTSuperiorSerif-Regular.otf') format('truetype');
+}
 html {
     overflow-x: hidden;
     width: 100%;
