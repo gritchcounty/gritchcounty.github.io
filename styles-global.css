@@ -75,6 +75,7 @@ body {
 }
 .barshadow {
     padding-bottom: 10px;
+    margin-bottom: 5px;
     border-bottom: black;
     border-width: 0 0 2px 0;
     border-style: solid;
@@ -249,7 +250,7 @@ h6 {
         filter: brightness(0);
     }
 }
-/*test to see if landscape/mobile works properly*/
+/*test to see if landscape/mobile works properly
 @media (max-device-width: 640px) 
         and (orientation: landscape){
     .sponsor-flex {
@@ -279,7 +280,7 @@ h6 {
 }
 .img-centering {
     display: none;
-}
+}*/
 /*  Centers header logo/removes index-title when screen has 5/6 aspect ratio or smaller */
 @media (max-aspect-ratio: 5/6) {
     .header {
