@@ -274,13 +274,13 @@ h6 {
         text-decoration: none;
         filter: brightness(0);
     }
-}
+}*/
 .sponsor-nav:hover {
     filter: brightness(100%);
 }
 .img-centering {
     display: none;
-}*/
+}
 /*  Centers header logo/removes index-title when screen has 5/6 aspect ratio or smaller */
 @media (max-aspect-ratio: 5/6) {
     .header {
@@ -302,7 +302,7 @@ h6 {
         display: block;
     } 
     .img-23 {
-        display: none;;
+        display: none;
     }
     .linksIcons {
         text-align: center;
