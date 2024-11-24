@@ -34,12 +34,19 @@
 h4 {
     margin-bottom: 0;
 }
-/* Need to figure out how to make this sit to the right of the images in the poster htmls
-
-.imagedesc {
+#page-image {
+    width: 100%;
+    height: auto;
     display: grid;
-    grid-template-columns:auto;
-} 
-
-
-*/
+    grid-template-columns: auto auto;
+}
+#paragraph {
+    text-align: left;
+    padding: 20px;
+    margin-top: 2px;
+    margin-right: 20px;
+    height: fit-content;
+    width:440px;
+    background-color: #ffffff;
+    filter: drop-shadow(4px 4px 4px #dfdfdf);
+}
