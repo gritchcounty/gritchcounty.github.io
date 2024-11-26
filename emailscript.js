@@ -16,6 +16,6 @@ for (i=0; i<coded.length; i++) {
     link += (key.charAt(ltr))
     }
 }
-document.write("<a href='mailto:"+link+"'><span class='fa-regular fa-envelope fa-xl'></span></a>")
+document.write("<a href='mailto:"+link+"'>Email</a>")
 
 

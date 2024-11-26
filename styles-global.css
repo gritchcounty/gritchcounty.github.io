@@ -1,6 +1,4 @@
-/* Activation of fonts.
-    Standard font is figtree-reg.
-    Rena-reg unused currently. */
+/* Activation of fonts.*/
 @font-face {
     font-family: "figtree-blk";
     src: url('/fonts/Figtree-Black.ttf') format('truetype');
@@ -23,19 +21,23 @@
 }
 html {
     overflow-x: hidden;
-    width: 100%;
-    height: 100%;
+    max-width: 1260px;
+    margin: auto;
 }  
 body {
     /* Basic formatting */
-    font-family: 'figtree-reg';
-    background-color: #e7e7e7;
+    font-family: 'superior-reg';
+    font-size: small;
+    line-height: 1.35;
+    background-color: #fff;
+    height: 99vh;
+    box-sizing: border-box;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 .greyspace {
-    height: 193px;
-    background-image: url(/images/backgrounds/grad_noise2.png);
-    background-size: 100vw;
-    /*background-color: #c0c0c0;*/
+    height: 65px;
 }
 .main {
     padding-left: 20px;
@@ -43,7 +45,10 @@ body {
 }
 .logos {
     margin-left: 20px;
-    margin-top: 43px;
+    margin-top: 20px;
+}
+.img-corner-mobile {
+    display: none;
 }
 .header {
     height: auto;
@@ -52,13 +57,51 @@ body {
     margin: 0;
     /*background-color: #c0c0c0;*/
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr 600px;
+}
+nav {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 40px;
+}
+/*  Text formatting  */
+h3 {
+    font-family: "figtree-blk";
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.centertext {
+    text-align: center;
+    margin-top: 0;
+}
+/*  Hyperlinks  */
+.links {
+    a:visited, a:link, a:active
+    {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color:#129376;
+    }
 }
 .linksIcons {
-    padding-top: 30px;
-    padding-right: 30px;
+    text-align: right; 
+    margin-top: 15px;
+    line-height: 30px;
 }
-/*Hamburger Menu*/
+.currentSiteMap {
+    color: #129376;
+}
+
+/*   Hamburger Menu (open when @media aspect ratio < 5/6)   */
 .burger {
     display: none;
 }
@@ -73,6 +116,8 @@ body {
 }
 .burgerlinks {
     display: none;
+    font-family: "figtree-blk";
+    text-align: center;
 }
 #check:checked ~ .burgerlinks{
     display: block;
@@ -84,234 +129,134 @@ body {
     border-width: 0 0 2px 0;
     border-style: solid;
 }
-.banner {
-    background-color: #f7a001; 
-    padding-top: 10px;
-    padding-bottom: 10px; 
-    font-family: figtree-ital; 
-    margin-top: 0;
-    margin-bottom: 0;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px 0 2px 0;
+
+/*  Footer grids + flexboxes  */
+#socials {
+    text-align: left;
+    padding-left: 20px;
 }
-button {
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
-    border-color: #f7a001;
+#lrborder {
+    width: 50%;
+    border: black;
+    border-width: 0 2px 0 2px;
     border-style: solid;
-    background: none;
-}
-.head-foot {
-    /* Header/footer box */
-    height: 99vh;
-    box-sizing: border-box;
-    margin: 0;
+    text-align: left;
+    padding: 20px;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto auto;
+    gap: 10px;
 }
-/* Text formatting */
-h3 {
-    font-family: "figtree-blk";
-    font-size: 20px;
-    margin-bottom: 0;
+
+.img-lb {
+    width: 70%; 
+    margin-top: 10px;
+    filter: brightness(0);
 }
-h5 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: figtree-blk;
-    font-weight: normal;
-    font-size: large;
+.img-lb:hover {
+    filter: brightness(100%);
 }
-h6 {
-    font-family: "figtree-ital";
-    font-weight: normal;
-    margin-top: 0;
+.sponsor-flex {
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-left: auto;
+    text-align: right;
+    gap: 10px;
 }
-.ql {
-    padding-top: 20px; 
-    padding-bottom: 20px;
+.sponsor-space {
+    justify-content: space-between;
 }
-.centertext {
+#container2 {
+    display: none;
+}
+.sponsor-nav {
     text-align: center;
-    margin-top: 0;
+    line-height: 1em;
+    object-fit: contain;
+    text-decoration: none;
+    filter: brightness(0);
 }
-.index-title {
-    text-align: center;
-    font-family: "figtree-blk";
-    text-transform:uppercase;
-    margin-bottom: 0;
-}
-.indexdates {
-    font-family: "figtree-blk"; 
-    margin-bottom: 0; 
-    font-style:italic;
-}
-.index-sub {
-    a:visited, a:link, a:active
-    {
-        text-decoration: none;
-        color:black;
-   }
-   a:hover {
-        color:#129376;
-   }
-    margin-top: 0;
-    padding-top: 0;
-    text-align: center;
-    font-family: "figtree-blk";
-    text-transform:uppercase;
-}
-.footer {
-    text-align: center;
-    margin: 0;
-}
-/* hyperlinks */
-.links {
-    a:visited, a:link, a:active
-    {
-        text-decoration: none;
-        color: black;
-    }
-    a:hover {
-        text-decoration: none;
-        color:#129376;
-    }
-}
-.yellowLinks {
-    a:visited, a:link, a:active
-    {
-        text-decoration: none;
-        color: black;
-    }
-    a:hover {
-        text-decoration: none;
-        color:#f7a001;
-    }
-}
-.whiteLinks {
-    a:visited, a:link, a:active
-    {
-        text-decoration: none;
-        color: black;
-    }
-    a:hover {
-        text-decoration: none;
-        color:#e7e7e7;
-    }
-}
-.greenLinks {
-    a:visited, a:link, a:active
-    {
-        text-decoration: none;
-        color: #129376;
-    }
-    a:hover {
-        text-decoration: none;
-        color: #61c682;
-    }
-}
-.linksIcons {
-    text-align: right; 
-    margin-top: 15px;
-    line-height: 30px;
-}
-.currentSiteMap {
-    color: #f7a001;
-}
-/* Sponsor logos hide on mobile/narrow screens */
-@media (max-aspect-ratio: 1.3/1){
-    .sponsor-flex {
-        content-visibility: hidden;
-    }
-}
-/* Sponsor Logos only visible on desktop*/
-@media (min-device-width: 650px) 
-        and (device-aspect-ratio > 1/1){
-    .sponsor-flex {
-        width: 50%;
-        height: auto;
-        display: flex;
-        flex-flow: row nowrap;
-        margin: auto;
-        margin-bottom: 1em;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        gap: 15px;
-    }
-    .sponsor-space {
-        justify-content: space-evenly;
-    }
-    .sponsor-nav {
-        text-align: center;
-        line-height: 1em;
-        object-fit: contain;
-        text-decoration: none;
-        
-        filter: brightness(0);
-    }
-}
-/*test to see if landscape/mobile works properly
-@media (max-device-width: 640px) 
-        and (orientation: landscape){
-    .sponsor-flex {
-        width: 100%;
-        display: flex;
-        flex-flow: row nowrap;
-        margin: auto;
-        margin-bottom: 1em;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        gap: 15px;
-    }
-    .sponsor-space {
-        justify-content: space-evenly;
-    }
-    .sponsor-nav {
-        text-align: center;
-        line-height: 1em;
-        object-fit: contain;
-        text-decoration: none;
-        filter: brightness(0);
-    }
-}*/
 .sponsor-nav:hover {
     filter: brightness(100%);
 }
-.img-centering {
-    display: none;
+#sponsors {
+    width: 33%; 
+    margin-right: 40px;
 }
-/*  Centers header logo/removes index-title when screen has 5/6 aspect ratio or smaller */
+
+/* Adjusts footer when width is too small */
+@media (width < 1260px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    #socials {
+        width: 80%;
+        display: flex;
+        flex-flow: row nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        justify-content: space-evenly;   
+    }
+    #lrborder {
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-width: 2px 0 2px 0;
+        justify-content: space-evenly;
+    }
+    .img-lb {
+        width: 300px;
+    }
+    #contact {
+        display: inline-block;
+        text-align: left;
+    }
+    #sponsors {
+        width: 80%;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sponsor-flex {
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #container1 {
+        display: none;
+    }
+    #container2 {
+        display: block;
+    }
+}
+/*  Centers header logo/adds hamburger menu when screen has 5/6 aspect ratio or smaller */
 @media (max-aspect-ratio: 5/6) {
     .header {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
         text-align: center;
     }
-    .index-title {
+    .img-corner-mobile {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+    } 
+    .img-corner-desktop {
         display: none;
     }
-    .img-centering {
-        display: block;
-        margin: auto; 
-    } 
-    .img-center {
-        margin: auto; 
-        display: block;
-    } 
-    .img-23 {
-        display: none;
-    }
-    .linksIcons {
-        text-align: center;
-        padding-top: 0;
-        padding-right: 0;
+    .logos {
+        padding: 0;;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fullwidthbg #flexnav {
         display: none;
@@ -323,25 +268,20 @@ h6 {
     .checkbtn #page-index {
         margin-top: 10px;
     }
-    .greyspace {
-        background-image: none;
+    #lrborder {
+        display: block;
+        text-align: center;
     }
-    .logos {
-        margin-left: 0;
+    .img-lb {
+        display: none;
     }
-    .ql {
-        padding-top: 5px;
-    }
-    .whiteLinks {
-        a:hover {
-            color: #129376;
-        }
+    #contact {
+        display: inline-block;
+        text-align: left;
     }
 }
-.nav {
-    text-align: center;
-}
-/* Centered/distributed sitemap links for >2:3 aspect ratios */
+
+/* Justified/right-aligned sitemap links for >2:3 aspect ratios */
 @media (min-aspect-ratio: 5/6){
     .navigation-container {
         width: 100%;
@@ -349,32 +289,20 @@ h6 {
         flex-flow: row nowrap;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        text-align: right;
     }
     .space-evenly {
         justify-content: space-evenly;
     }
-    .footer {
-        text-align: center;
-    }
     .nav {
-        text-align: center;
         line-height: 1em;
         object-fit: contain;
         text-decoration: none;
     }
-    .fullwidthbg #flexnav {
-        content-visibility: visible;
-        background-color: #129376;
-        margin-top: 0;
-        margin-bottom: 0;
+    .fullwidthbg {
         padding-top: 10px;
-        padding-bottom: 10px;        
-    }
-    .index2col {
-        box-sizing: border-box;
-        margin: 0;
-        display: grid;
-        grid-template-columns: 45vw 8vw 45vw;
+        padding-right: 5px;
+        font-family: "figtree-blk";
     }
 }
+
