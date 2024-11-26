@@ -59,16 +59,6 @@ body {
     display: grid;
     grid-template-columns: auto 1fr 600px;
 }
-nav {
-    text-align: center;
-}
-.footer {
-    text-align: center;
-    margin: 0;
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 40px;
-}
 /*  Text formatting  */
 h3 {
     font-family: "figtree-blk";
@@ -128,6 +118,17 @@ h3 {
     border-bottom: black;
     border-width: 0 0 2px 0;
     border-style: solid;
+}
+
+nav {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 40px;
 }
 
 /*  Footer grids + flexboxes  */
