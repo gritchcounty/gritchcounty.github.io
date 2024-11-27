@@ -15,7 +15,7 @@ h4 {
 #paragraph {
     text-align: left;
     padding: 20px;
-    margin-right: 20px;
+    margin: 20px;
     height: fit-content;
     width:440px;
     background-color: #fff;
@@ -35,7 +35,7 @@ h4 {
     #picture {
         width: 100%;
         height: auto;
-        margin: 20px;
+        margin: 0px;
     }
     #paragraph {
         display: none;
@@ -43,7 +43,7 @@ h4 {
     #paragraph-mobileoverlay {
         position:fixed;
         width: 100%;
-        bottom: 0;
+        bottom: 0vw;
         display: grid;
         grid-template-rows: auto auto;
         padding-left: 20px;
