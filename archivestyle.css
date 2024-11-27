@@ -1,6 +1,5 @@
 html #page-image{
     background-color: #e7e7e7;
-    padding: 20px;
 }
 .links-docs {
     text-indent: 10px;
@@ -10,9 +9,6 @@ h4 {
     margin-bottom: 0;
 }
 #page-image {
-    position: relative;
-    width: 100%;
-    height: auto;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -36,11 +32,16 @@ h4 {
     #page-image {
         display: block;
     }
-    /*#paragraph {
+    #picture {
+        width: 100%;
+        height: auto;
+        margin: 20px;
+    }
+    #paragraph {
         display: none;
     }
     #paragraph-mobileoverlay {
-        position: absolute;
+        position:fixed;
         width: 100%;
         bottom: 0;
         display: grid;
@@ -51,7 +52,26 @@ h4 {
         height: fit-content;
         color: white;
         background-color: #000000ab;
-    }*/
+    }
+    .overlaycoll {
+        background: none;
+        border: none; 
+        color: white; 
+        text-align: left; 
+        cursor: pointer;
+        text-decoration: underline;
+        margin-bottom: 0; 
+        padding-left: 0;
+        font-family: "superior.reg"
+    }
+    :active, .overlaycoll:hover {
+        text-decoration: none;
+    }
+    .ocbody {
+        display: block;
+        overflow: hidden;
+        margin-right: 40px;
+    }
 }
 .collapsible {
     border: none;
