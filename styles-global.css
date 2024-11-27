@@ -194,7 +194,7 @@ nav {
         text-align: center;
     }
     #socials {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-flow: row nowrap;
         margin-left: auto;
@@ -203,7 +203,8 @@ nav {
         margin-top: 10px;
         padding-top: 15px;
         padding-bottom: 15px;
-        justify-content: space-evenly;   
+        justify-content: space-evenly;
+        text-decoration: underline;
     }
     #lrborder {
         width: 80%;
