@@ -1,0 +1,10 @@
+.bcpif {
+    border: 0; 
+    width: 600px; 
+    height: 120px;
+}
+@media (max-aspect-ratio: 5/6) {
+    .bcpif {
+        width: 400px;
+    }
+}
