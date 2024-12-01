@@ -1,16 +1,15 @@
 html #page-image{
     background-color: #e7e7e7;
 }
-.links-docs {
-    text-indent: 10px;
-    text-decoration: underline;
-}
 h4 {
     margin-bottom: 0;
 }
 #page-image {
     display: grid;
     grid-template-columns: auto auto;
+}
+.doclinks {
+    text-indent: 40px;
 }
 #paragraph {
     text-align: left;
@@ -24,11 +23,13 @@ h4 {
 #paragraph-mobileoverlay {
     display: none;
 }
-@media (max-aspect-ratio: 8/6){
-    .links-docs {
+@media (max-aspect-ratio: 5/6){
+    .doclinks {
         text-indent: 0px;
         text-align: center;
     }
+}
+@media (max-aspect-ratio: 8/6){
     #page-image {
         display: block;
     }
