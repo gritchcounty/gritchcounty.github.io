@@ -23,6 +23,12 @@ button {
 .index2col {
     display: block;
 }
+.spban {
+    display: none;
+}
+.quicklinks {
+    font-style: italic;
+}
 @media (min-aspect-ratio: 1.1/1) {
     .index2col {
         max-width: 1260px;
@@ -30,5 +36,8 @@ button {
         display: grid;
         grid-template-columns: 1fr 50px 1fr;
         margin-bottom: 20px;
+    }
+    .spban {
+        display: block;
     }
 }
