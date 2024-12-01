@@ -24,7 +24,7 @@ h4 {
 #paragraph-mobileoverlay {
     display: none;
 }
-@media (max-aspect-ratio: 670/925){
+@media (max-aspect-ratio: 8/6){
     .links-docs {
         text-indent: 0px;
         text-align: center;
