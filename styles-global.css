@@ -149,6 +149,7 @@ nav {
 #socials {
     text-align: left;
     padding-left: 20px;
+    padding-top: 20px;
 }
 #lrborder {
     width: 50%;
@@ -156,7 +157,7 @@ nav {
     border-width: 0 2px 0 2px;
     border-style: solid;
     text-align: left;
-    padding: 20px;
+    padding: 40px;
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
@@ -164,7 +165,7 @@ nav {
 
 .img-lb {
     width: 70%; 
-    margin-top: 20px;
+    margin-top: 25px;
     filter: brightness(0);
 }
 .img-lb:hover {
