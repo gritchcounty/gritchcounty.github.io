@@ -139,6 +139,7 @@ nav {
 }
 .footer {
     text-align: center;
+    font-size: small;
     margin: 0;
     display: flex;
     flex-flow: row nowrap;
