@@ -65,12 +65,10 @@ h3 {
     font-size: 20px;
     margin-bottom: 0;
 }
-
 .centertext {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
 }
 /*  Hyperlinks  */
 .links {
@@ -81,7 +79,7 @@ h3 {
     }
     a:hover {
         text-decoration: none;
-        color:#129376;
+        color:#c6341a;
     }
 }
 .links-inv {
@@ -92,7 +90,7 @@ h3 {
     }
     a:hover {
         text-decoration: none;
-        color:#129376;
+        color:#c6341a;
     }
 }
 .linksIcons {
