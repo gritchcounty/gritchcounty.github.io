@@ -34,7 +34,8 @@ button {
         max-width: 1260px;
         margin: 0;
         display: grid;
-        grid-template-columns: 1fr 50px 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
         margin-bottom: 20px;
     }
     .spban {
