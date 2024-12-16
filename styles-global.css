@@ -72,9 +72,8 @@ h3 {
 }
 /*  Hyperlinks  */
 .links {
-    a:visited, a:link, a:active
+    a:link, a:active, a:visited
     {
-        text-decoration: none;
         color: black;
     }
     a:hover {
@@ -85,7 +84,6 @@ h3 {
 .links-inv {
     a:visited, a:link, a:active
     {
-        text-decoration: none;
         color: white;
     }
     a:hover {
@@ -98,7 +96,9 @@ h3 {
     margin-top: 15px;
     line-height: 30px;
 }
-
+.currentSiteMap {
+    color: #129376;
+}
 /*   Hamburger Menu (open when @media aspect ratio < 5/6)   */
 .burger {
     display: none;
@@ -132,7 +132,7 @@ h3 {
     border-style: solid;
 }
 
-nav {
+.nav {
     text-align: center;
 }
 .footer {
@@ -322,6 +322,15 @@ nav {
         padding-top: 10px;
         padding-right: 5px;
         font-family: "figtree-blk";
+        a:link, a:active, a:visited
+        {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: none;
+            color:#129376;
+        }
     }
 }
 
