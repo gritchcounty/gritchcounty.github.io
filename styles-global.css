@@ -114,8 +114,18 @@ h3 {
 }
 .burgerlinks {
     display: none;
+    text-decoration: none;
     font-family: "figtree-blk";
     text-align: center;
+    a:link, a:active, a:visited
+    {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color:#129376;
+    }
 }
 #check:checked ~ .burgerlinks{
     display: block;
