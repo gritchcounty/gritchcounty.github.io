@@ -69,8 +69,7 @@ h3 {
 }
 /*  Hyperlinks  */
 .links {
-    a:link, a:active, a:visited
-    {
+    a:link, a:active, a:visited {    
         color: black;
     }
     a:hover {
@@ -78,8 +77,8 @@ h3 {
     }
 }
 .links-inv {
-    a:visited, a:link, a:active
-    {
+    a:visited, a:link, a:active {
+    
         color: white;
     }
     a:hover {
