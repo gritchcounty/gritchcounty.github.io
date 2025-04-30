@@ -61,6 +61,7 @@ h3 {
     font-family: "figtree-blk";
     font-size: 20px;
     margin-bottom: 0;
+    margin-top: 0px;
 }
 .centertext {
     text-align: center;
@@ -103,7 +104,7 @@ h3 {
 .checkbtn {
     display: none;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 .burgerlinks {
@@ -120,9 +121,7 @@ h3 {
         color:#666;
     }
 }
-#check:checked ~ .burgerlinks{
-    display: block;
-}
+
 .barshadow {
     width: 80%;
     text-align: center;
@@ -290,6 +289,9 @@ h3 {
     }
     .checkbtn #page-index {
         margin-top: 10px;
+    }
+    #check:checked ~ .burgerlinks{
+        display: block;
     }
     #lrborder {
         display: block;
