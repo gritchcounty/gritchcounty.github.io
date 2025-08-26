@@ -197,7 +197,7 @@ h3 {
     line-height: 1em;
     object-fit: contain;
     text-decoration: none;
-    filter: brightness(1);
+    filter: brightness(0);
 }
 .sponsor-nav:hover {
     filter: brightness(100%);
